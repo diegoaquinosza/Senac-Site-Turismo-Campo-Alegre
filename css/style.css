@@ -1,35 +1,22 @@
-/* style.css */
-
-/* --- 1. Configurações Globais e Importação de Fonte --- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* --- 2. Estilos da Seção de Destaque (Hero Section) --- */
 .hero-section {
-    /* Define a altura para ocupar 100% da altura da tela (viewport height) */
     height: 100vh;
-
-    /* Imagem de fundo - SUBSTITUA pelo link da sua imagem de Campo Alegre */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Cachoeira-do-Catoa.webp') no-repeat center center;
-
-    /* Garante que a imagem cubra toda a área da seção */
     background-size: cover;
-
-    /* Flexbox para centralizar o conteúdo vertical e horizontalmente */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
-    /* Cor do texto para contrastar com o fundo */
 }
 
 .hero-section h1 {
     font-size: 4rem;
-    /* Tamanho grande para o título */
     font-weight: 700;
 }
 
@@ -38,16 +25,13 @@ body {
     margin-top: 1rem;
 }
 
-/* --- 3. Estilos do Rodapé --- */
 .social-icons a {
     color: white;
     margin: 0 10px;
-    font-size: 1.5rem;
-    /* Tamanho dos ícones */
+    font-size: 1.5rem; /* Tamanho dos ícones */
     transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
     color: #0d6efd;
-    /* Cor primária do Bootstrap ao passar o mouse */
 }
