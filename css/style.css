@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+:root{
+    --branco-quase: #fff9f1;
+    --amarelo: #ECB437ff;
+    --areia: #DBA463ff;
+    --barro: #BD7447ff;
+    --barro-red:#A0542Fff;
+    --palmeira: #335E62ff;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-top{
+    background-color: var(--palmeira) !important;
+}
+
+.nav-link{
+    color: var(--branco-quase) !important;
+    /* font-weight: bold !important; */
+    /* background-color: var(--barro) !important; */
+    border-radius: 6px !important;
+    text-align: center;
+}
+
 .hero-section {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Cachoeira-do-Catoa.webp') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Teste\ Grid.png') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -18,6 +39,16 @@ body {
 .hero-section h1 {
     font-size: 4rem;
     font-weight: 700;
+}
+
+button{
+    background-color: var(--palmeira) !important;
+
+}
+
+.btn-explorar{
+    color: #fff9f1 !important;
+    background-color: var(--palmeira) !important;
 }
 
 .hero-section p {
