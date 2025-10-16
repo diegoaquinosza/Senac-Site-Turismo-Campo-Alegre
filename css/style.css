@@ -70,11 +70,8 @@ h5 {
 
 .card1,
 .card2,
-.card3 {
-    /* background-color: var(--palmeira);
-    color: #fff; */
-    /* padding: 2.2em; */
-    /* border-radius: 1em; */
+.card3,
+.card-ferramenta {
     box-shadow: 0 1px 10px var(--palmeira);
     transition: 0.4s;
 }
@@ -86,6 +83,10 @@ h5 {
 #galeria {
     color: #fff9f1 !important;
     background-color: var(--palmeira) !important;
+}
+
+#contato-localizacao {
+    background-color: #f0f0f0 !important;
 }
 
 .social-icons a {
@@ -103,4 +104,30 @@ h5 {
 .rodape {
     color: #fff9f1 !important;
     background-color: var(--palmeira) !important;
+}
+
+
+.card-ferramenta .form-label {
+    font-weight: 500;
+    color: #333;
+    text-align: left;
+    width: 100%;
+}
+
+.btn-calcular {
+    background-color: var(--palmeira) !important;
+    color: var(--branco-quase) !important;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-calcular:hover {
+    background-color: var(--barro-red) !important;
+}
+
+.resultado-calculadora {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--palmeira);
+    min-height: 50px; 
 }
