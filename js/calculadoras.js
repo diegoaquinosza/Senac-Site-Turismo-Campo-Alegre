@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-    // --- LÓGICA DA CALCULADORA 3: CONTADOR DE DIAS (Nenhuma alteração aqui) ---
+    // --- LÓGICA DA CALCULADORA 3: CONTADOR DE DIAS ---
     const btnCalcularDias = document.getElementById('btnCalcularDias');
 
     btnCalcularDias.addEventListener('click', function() {
